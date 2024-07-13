@@ -1,0 +1,8 @@
+.clove-logo {
+    transition-duration: 0.3s;
+}
+
+.clove-logo :hover
+{
+    transition: scale(1.2);
+}
