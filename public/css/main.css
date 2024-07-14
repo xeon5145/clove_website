@@ -3,13 +3,23 @@
     transition-duration: 0.3s;
 }
 
-.clove-logo:hover
-{
+.clove-logo:hover {
     transform: scale(1.05);
 }
 
-.bg-main
-{
+.bg-main {
     background-color: #EA9619 !important;
 }
+
+a {
+    text-decoration: none;
+    color: #EA9619;
+}
+
+.btn-primary
+{
+    background-color: #EA9619 !important;
+    border-radius: 1rem;
+}
+
 /* Common Css */

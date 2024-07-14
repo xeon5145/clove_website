@@ -10,9 +10,22 @@
 </head>
 
 <body>
-    <div class="row align-items-center p-2">
-        <div class="col-auto"> <a class="" href="#"><img class="clove-logo" src="<?= base_url('assets/logo/clove_logo.png') ?>" /></a>
+<div class="row p-2">
+        <!-- Link logo -->
+        <div class="col-1">
+            <a class="" href="#"><img class="clove-logo" src="<?= base_url('assets/logo/clove_logo.png') ?>" /></a>
         </div>
-        <div class="col ms-auto"> <button class="btn btn-primary rounded-pill" style="background-color: #EA9619">Login</button>
-        </div>
-    </div>
+        <!-- Link logo -->
+
+        <!-- Links and button -->
+         <div class="col-11 ">
+            <div class="float-end">
+                <a href="">Clove Coin</a>
+                <a href="">Clove Chain</a>
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <button class="btn btn-primary">Login</button>
+            </div>
+         </div>
+        <!-- Links and button -->
+</div>
