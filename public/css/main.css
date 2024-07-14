@@ -1,8 +1,15 @@
+/* Common Css */
 .clove-logo {
     transition-duration: 0.3s;
 }
 
-.clove-logo :hover
+.clove-logo:hover
 {
-    transition: scale(1.2);
+    transform: scale(1.05);
 }
+
+.bg-main
+{
+    background-color: #EA9619 !important;
+}
+/* Common Css */
