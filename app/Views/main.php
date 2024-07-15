@@ -1,15 +1,15 @@
 <!-- page - 1 -->
-<div class="grd-primary container-fluid page-1">
+<div class="grd-primary page-1">
         <img class="clove-logo-p1" src="<?= base_url('assets/logo/primary-clove.png') ?>" alt="">
-    <div class="row mt-3 mb-3">
-        <div class="col-6">
-            <div class="row ms-5 mt-5 mb-5">
-                <div class="col">
-                    <h3 class="text-main fw-bold">Clove is the next gen payment system operated by network</h3>
+    <div class="">
+        <div class="">
+            <div class="">
+                <div class="">
+                    <h3 class="text-main">Clove is the next gen payment system operated by network</h3>
 
-                    <div class="row mt-3">
-                        <div class="col bg-main p-5 clove-card">
-                            <h4 class="text-secondary fw-bold">What is Clove</h4>
+                    <div class="">
+                        <div class="bg-main clove-card">
+                            <h4 class="text-secondary">What is Clove</h4>
 
                             <p class="text-secondary">
                                 Clove operates using peer-to-peer technology, eliminating the need for a central authority or banks.

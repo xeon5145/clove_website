@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="container-fluid d-flex p-2">
+    <div class="">
         <!-- Link logo -->
         <a class="" href="#"><img class="clove-logo" src="<?= base_url('assets/logo/clove_logo.png') ?>" /></a>
         <!-- Link logo -->
