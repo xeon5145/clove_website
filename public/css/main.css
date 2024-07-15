@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'poppins-Regular';
+    src: url('../assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-black';
+    src: url('../assets/fonts/Poppins-Black.ttf');
+}
+
+body{
+   font-family: 'poppins-Regular'; 
+}
 /* Common Css */
 .clove-logo {
     transition-duration: 0.3s;
@@ -13,6 +26,11 @@
 
 a {
     text-decoration: none;
+    color: #EA9619;
+    font-weight: bold;
+}
+
+a:hover{
     color: #EA9619;
 }
 
