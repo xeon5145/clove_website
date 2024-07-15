@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class="row bg-main">
+    <div class="bg-main">
         <h5 class="text-center text-white">Clove <?= date('Y'); ?></h5>
     </div>
 

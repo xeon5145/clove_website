@@ -1,5 +1,6 @@
 <!-- page - 1 -->
-<div class="grd-primary page-1">
+<div class="grd-primary container-fluid page-1">
+        <img class="clove-logo-p1" src="<?= base_url('assets/logo/primary-clove.png') ?>" alt="">
     <div class="row mt-3 mb-3">
         <div class="col-6">
             <div class="row ms-5 mt-5 mb-5">
