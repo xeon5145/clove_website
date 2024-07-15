@@ -24,6 +24,14 @@ body{
     background-color: #EA9619 !important;
 }
 
+.text-main {
+    color: #EA9619 !important;
+}
+
+.text-secondary {
+    color: #FFFFFF !important;
+}
+
 a {
     text-decoration: none;
     color: #EA9619;
@@ -40,4 +48,19 @@ a:hover{
     border-radius: 1rem;
 }
 
+.grd-primary
+{
+    background: linear-gradient(to bottom, #FFFFFF 0%,#FCF0DD 20%,#FAE5C6 37%,#F4CB8C 52%, #EA9619 71%);
+}
+
+.clove-card
+{
+    border: none;
+    border-radius: 1rem;
+}
+
 /* Common Css */
+
+/* Website */
+
+/* Website */
