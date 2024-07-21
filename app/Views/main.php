@@ -1,9 +1,11 @@
 <!-- page - 1 -->
-<div class="grd-primary page-1">
-    <img class="clove-logo-p1" src="<?= base_url('assets/logo/primary-clove.png') ?>" alt="">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
+<div class="page-1">
+    <div class="big-clove-layer-1">
+        <img class="clove-logo-p1" src="<?= base_url('assets/logo/primary-clove.png') ?>" alt="">
+    </div>
+    <!-- <div class="">
+        <div class="">
+            <div class="">
                 <h3 class="text-main">Clove is the next gen payment system operated by network</h3>
                 <div class="clove-card bg-main">
                     <h4 class="text-secondary">What is Clove</h4>
@@ -19,7 +21,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 <!-- page - 1 -->
 

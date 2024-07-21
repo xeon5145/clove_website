@@ -11,7 +11,7 @@
 <body>
     <div class="header-main-container">
         <!-- Link logo -->
-        <a class="" href="#"><img class="clove-logo" src="<?= base_url('assets/logo/clove_logo.png') ?>" /></a>
+        <a class="header-logo" href="#"><img class="clove-logo" src="<?= base_url('assets/logo/clove_logo.png') ?>" /></a>
         <!-- Link logo -->
 
         <!-- Links and button -->
