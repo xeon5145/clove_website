@@ -9,13 +9,13 @@
 </head>
 
 <body>
-    <div class="">
+    <div class="header-main-container">
         <!-- Link logo -->
         <a class="" href="#"><img class="clove-logo" src="<?= base_url('assets/logo/clove_logo.png') ?>" /></a>
         <!-- Link logo -->
 
         <!-- Links and button -->
-        <div class="">
+        <div class="header-links">
             <a href="">Clove Coin</a>
             <a href="">Clove Chain</a>
             <a href="">Home</a>

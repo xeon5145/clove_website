@@ -1,3 +1,6 @@
+/* Mobile-first CSS */
+
+/* Font faces */
 @font-face {
     font-family: 'poppins-Regular';
     src: url('../assets/fonts/Poppins-Regular.ttf');
@@ -7,11 +10,15 @@
     font-family: 'poppins-black';
     src: url('../assets/fonts/Poppins-Black.ttf');
 }
+/* Font faces */
 
-body{
-   font-family: 'poppins-Regular'; 
+/* Global styles */
+body {
+    font-family: 'poppins-Regular';
 }
-/* Common Css */
+/* Global styles */
+
+/* Common CSS */
 .clove-logo {
     transition-duration: 0.3s;
 }
@@ -21,15 +28,15 @@ body{
 }
 
 .bg-main {
-    background-color: #EA9619 !important;
+    background-color: #EA9619!important;
 }
 
 .text-main {
-    color: #EA9619 !important;
+    color: #EA9619!important;
 }
 
 .text-secondary {
-    color: #FFFFFF !important;
+    color: #FFFFFF!important;
 }
 
 a {
@@ -38,39 +45,72 @@ a {
     font-weight: bold;
 }
 
-a:hover{
+a:hover {
     color: #EA9619;
 }
 
-.btn-primary
+.btn
 {
-    background-color: #EA9619 !important;
-    border-radius: 1rem;
+    border: none;
+    border-radius: 2rem;
+    padding : 1rem 3rem;
+    font-weight: bold;
 }
 
-.grd-primary
-{
-    background: linear-gradient(to bottom, #FFFFFF 0%,#FCF0DD 20%,#FAE5C6 37%,#F4CB8C 52%, #EA9619 71%);
+.btn-primary {
+    background-color: #EA9619!important;
+    color: #fefefe; 
 }
 
-.clove-card
-{
+.grd-primary {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FCF0DD 20%, #FAE5C6 37%, #F4CB8C 52%, #EA9619 71%);
+}
+
+.clove-card {
     border: none;
     border-radius: 1rem;
 }
 
-.clove-logo-p1
-{
-    max-height: 30rem;
+.clove-logo-p1 {
+    max-height: 15rem; /* adjusted for mobile */
     width: auto;
 }
 
-/* Common Css */
-
-/* Website */
-.page-1
-{
-    min-height: 95% !important;
-    width: 100% !important;
+/* Mobile-specific styles */
+.page-1 {
+    min-height: 100vh; /* use viewport height instead of percentage */
+    width: 100%;
+    padding: 1rem; /* add some padding for mobile */
 }
-/* Website */
+
+/* Tablet and desktop styles */
+@media (min-width: 768px) {
+   .clove-logo-p1 {
+        max-height: 30rem; /* adjust for tablet and desktop */
+    }
+   .page-1 {
+        padding: 2rem; /* increase padding for tablet and desktop */
+    }
+}
+
+/* Desktop-specific styles */
+@media (min-width: 1200px) {
+    .header-main-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+      }
+      
+      .header-links {
+        margin-right: 1rem;
+        text-align: right;
+        display: flex;
+        align-items: center;
+      }
+
+      .header-links a
+      {
+        margin-right: 3rem !important;
+      }
+}
