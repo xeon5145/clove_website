@@ -38,6 +38,10 @@ body {
     background-color: #EA9619 !important;
 }
 
+.bg-secondary {
+    background-color: #FFFFFF !important;
+}
+
 .text-main {
     color: #EA9619 !important;
 }
@@ -79,10 +83,18 @@ a:hover {
 
 .clove-logo-p1 {
     max-height: 15rem;
-    /* adjusted for mobile */
     width: auto;
 }
 
+.clove-logo-p2 {
+    max-height: 15rem;
+    width: auto;
+}
+
+.clove-logo-p3 {
+    max-height: 15rem;
+    width: auto;
+}
 /* Mobile-specific styles */
 /* .page-1 {
     min-height: 100vh; /* use viewport height instead of percentage */
@@ -97,14 +109,37 @@ a:hover {
         /* adjust for tablet and desktop */
     }
 
+    .clove-logo-p2 {
+        max-height: 30rem;
+        /* adjust for tablet and desktop */
+    }
+
+    .clove-logo-p3 {
+        max-height: 30rem;
+        /* adjust for tablet and desktop */
+    }
+
     .page-1 {
         padding: 2rem;
         /* increase padding for tablet and desktop */
     }
+
+    .page-2 {
+        padding: 2rem;
+        /* increase padding for tablet and desktop */
+    }
+
+    .page-3 {
+        padding: 2rem;
+        /* increase padding for tablet and desktop */
+    }
+
 }
 
 /* Desktop-specific styles */
 @media (min-width: 1200px) {
+
+    /* header */
     .header-main-container {
         display: flex;
         align-items: center;
@@ -113,8 +148,7 @@ a:hover {
         min-height: 10vh;
     }
 
-    .header-logo
-    {
+    .header-logo {
         margin-left: 0.8rem;
     }
 
@@ -129,6 +163,10 @@ a:hover {
         margin-right: 3rem !important;
     }
 
+    /* header */
+
+
+    /* Page - 1 */
     .page-1 {
         display: flex;
         position: relative;
@@ -137,16 +175,112 @@ a:hover {
     }
 
     .big-clove-layer-1 {
+        position: absolute;
         background-color: rgba(0, 255, 255, 0);
         min-height: 80vh;
         min-width: 100%;
+        top: 0;
+        left: 0;
         filter: blur(0.5rem);
     }
 
-    .clove-logo-p1
-    {
+    .clove-logo-p1 {
         float: right;
-        margin-top: 5rem;
+        margin-top: 10rem;
+        margin-right: 3rem;
         filter: opacity(0.8);
     }
+
+    .page-1-content {
+        z-index: 1;
+    }
+
+    /* Page - 1 */
+
+    /* Page - 2 */
+    .page-2 {
+        display: flex;
+        position: relative;
+        background: #fefefe;
+        min-height: 90vh;
+    }
+
+    .big-clove-layer-2 {
+        position: absolute;
+        background-color: rgba(0, 255, 255, 0);
+        min-height: 80vh;
+        min-width: 100%;
+        top: 0;
+        left: 0;
+        filter: blur(0.5rem);
+    }
+
+    .clove-logo-p2 {
+        float: left;
+        margin-top: 15rem;
+        margin-right: 3rem;
+        filter: opacity(0.6);
+    }
+
+    .page-2-content {
+        z-index: 1;
+    }
+
+    /* Page - 2 */
+
+    /* Page - 3 */
+    .page-3 {
+        display: flex;
+        position: relative;
+        background: #EA9619;
+        min-height: 90vh;
+    }
+
+    .big-clove-layer-3 {
+        position: absolute;
+        background-color: rgba(0, 255, 255, 0);
+        min-height: 80vh;
+        min-width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        filter: blur(0.5rem);
+    }
+
+    .clove-logo-p3 {
+        float: right;
+        margin-top: 15rem;
+        margin-left: 3rem;
+        filter: opacity(0.2);
+    }
+
+    .page-3-content {
+        z-index: 1;
+    }
+
+    /* Page - 3 */
+
+    /* Footer */
+    .footer-main-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    /* Footer */
+
+    /* Copyright */
+    .copyright {
+        margin-top: 0 !important;
+        text-align: center;
+    }
+    
+    .copyright-content
+    {
+        margin-top: 0;
+        padding: 1rem;
+    }
+
+    /* Copyright */
 }

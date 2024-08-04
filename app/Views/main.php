@@ -1,9 +1,13 @@
 <!-- page - 1 -->
 <div class="page-1">
+    <!-- Page 1 Clove image -->
     <div class="big-clove-layer-1">
         <img class="clove-logo-p1" src="<?= base_url('assets/logo/primary-clove.png') ?>" alt="">
     </div>
-    <!-- <div class="">
+    <!-- Page 1 Clove image -->
+
+    <!-- Page 1 Content -->
+    <div class="page-1-content">
         <div class="">
             <div class="">
                 <h3 class="text-main">Clove is the next gen payment system operated by network</h3>
@@ -21,26 +25,51 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
+    <!-- Page 1 Content -->
 </div>
 <!-- page - 1 -->
 
 <!-- page - 2 -->
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <h2>Chain Simulation</h2>
+<div class="page-2">
+
+    <!-- Page 2 Clove image -->
+    <div class="big-clove-layer-2">
+        <img class="clove-logo-p2" src="<?= base_url('assets/logo/secondry-clove.png') ?>" alt="">
+    </div>
+    <!-- Page 2 Clove image -->
+
+    <!-- Page 2 Content -->
+    <div class="page-2-content">
+        <div class="">
+            <div class="">
+
+            </div>
         </div>
     </div>
+    <!-- Page 2 Content -->
+
 </div>
 <!-- page - 2 -->
 
 <!-- page - 3 -->
-<div class="container bg-main">
-    <div class="row">
-        <div class="col-12">
-            <h2>Market Chart</h2>
+<div class="page-3">
+
+    <!-- Page 3 Clove image -->
+    <div class="big-clove-layer-3">
+        <img class="clove-logo-p3" src="<?= base_url('assets/logo/secondry-clove-2.png') ?>" alt="">
+    </div>
+    <!-- Page 3 Clove image -->
+
+    <!-- Page 3 Content -->
+    <div class="page-3-content">
+        <div class="">
+            <div class="">
+
+            </div>
         </div>
     </div>
+    <!-- Page 3 Content -->
+
 </div>
 <!-- page - 3 -->
